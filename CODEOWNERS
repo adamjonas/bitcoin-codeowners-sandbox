@@ -1,1 +1,136 @@
+# ==============================================================================
+#                          Bitcoin Core CODEOWNERS
+# ==============================================================================
+
+# Configuration of code ownership and review approvals for the bitcoin/bitcoin
+# repo.
+
+# Order is important; the last matching pattern takes the most precedence.
+# More info on how this file works can be found at:
+# https://help.github.com/articles/about-codeowners/
+
+# This file is called CODEOWNERS because it is a magic file for GitHub to
+# automatically suggest reviewers. In this project's case, the names below
+# should be thought of as code reviewers rather than owners. Regular
+# contributors are free to add their names to specific directories or files
+# provided that they are willing to provide a review when automatically
+# assigned.
+
+# Absence from this list should not be interpreted as a discouragement to
+# review a pull request. Peer review is always welcome and is a critical
+# component of the progress of the codebase. Information on peer review
+# guidelines can be found in the CONTRIBUTING.md doc.
+
+
+# Maintainers
+#   @laanwj
+#   @sipa
+#   @fanquake
+#   @jonasschnelli
+#   @marcofalke
+#   @meshcollider
+
+# Docs
+/doc/*[a-zA-Z-].md                          @jonastest00
 /doc/Doxyfile.in                            @jonastest00
+/doc/REST-interface.md                      @jonastest00
+/doc/benchmarking.md                        @jonastest00
+/doc/bitcoin-conf.md                        @jonastest00
+/doc/build-freebsd.md                       @jonastest00
+/doc/build-netbsd.md                        @jonastest00
+/doc/build-openbsd.md                       @jonastest00
+/doc/build-osx.md                           @jonastest00
+/doc/build-unix.md                          @jonastest00
+/doc/build-windows.md                       @jonastest00
+/doc/dependencies.md                        @jonastest00
+/doc/developer-notes.md                     @jonastest00
+/doc/files.md                               @jonastest00
+/doc/gitian-building.md                     @jonastest00
+/doc/reduce-memory.md                       @jonastest00
+/doc/reduce-traffic.md                      @jonastest00
+/doc/release-process.md                     @jonastest00
+/doc/translation_strings_policy.md          @jonastest00
+
+# Build aux
+/build-aux/m4/bitcoin_qt.m4                 @jonastest00
+
+# MSVC build system
+/build_msvc/                                @jonastest00
+
+# Settings
+/src/util/settings.*                        @jonastest00
+
+# Fuzzing
+/src/test/fuzz/                             @jonastest00
+/doc/fuzzing.md                             @jonastest00
+
+# Test framework
+/test/functional/mempool_updatefromblock.py @jonastest00
+/test/functional/feature_asmap.py           @jonastest00
+/test/functional/interface_bitcoin_cli.py   @jonastest00
+/test/functional/tool_wallet.py             @jonastest00
+
+# Translations
+/src/util/translation.h                     @jonastest00
+
+# Dev Tools
+/contrib/devtools/security-check.py         @jonastest00
+/contrib/devtools/test-security-check.py    @jonastest00
+/contrib/devtools/symbol-check.py           @jonastest00
+
+# Gitian/Guix
+/contrib/gitian-build.py                    @jonastest00
+/contrib/guix/                              @jonastest00
+
+# Compatibility
+/src/compat/glibc_*                         @jonastest00
+
+# GUI
+/src/qt/forms/                              @jonastest00
+
+# Wallet
+/src/wallet/                                @jonastest00
+
+# CLI
+/src/bitcoin-cli.cpp                        @jonastest00
+
+# Coinstats
+/src/node/coinstats.*                       @jonastest00
+
+# Index
+/src/index/                                 @jonastest00
+
+# Descriptors
+*descriptor*                                @jonastest00
+
+# Interfaces
+/src/interfaces/                            @jonastest00
+
+# DB
+/src/txdb.*                                 @jonastest00
+/src/dbwrapper.*                            @jonastest00
+
+# Scripts/Linter
+*.sh                                        @jonastest00
+/test/lint/                                 @jonastest00
+/test/lint/lint-shell.sh                    @jonastest00
+
+# Bech32
+/src/bech32.*                               @jonastest00
+/src/bench/bech32.*                         @jonastest00
+
+# PSBT
+/src/psbt*                                  @jonastest00
+/src/node/psbt*                             @jonastest00
+/doc/psbt.md                                @jonastest00
+
+# P2P
+/src/net_processing.*                       @jonastest00
+/src/protocol.*                             @jonastest00
+
+# Consensus
+/src/coins.*                                @jonastest00
+/src/script/script.*                        @jonastest00
+/src/script/interpreter.*                   @jonastest00
+/src/validation.*                           @jonastest00
+/src/consensus/                             @jonastest00
