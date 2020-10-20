@@ -1,4 +1,4 @@
-Unauthenticated REST Interface
+Unauthenticated REST Interface -test
 ==============================
 
 The REST API can be enabled with the `-rest` option.
