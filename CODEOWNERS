@@ -31,7 +31,6 @@
 #   @meshcollider
 
 # Docs
-/doc/*[a-zA-Z-].md                          @jonastest00
 /doc/Doxyfile.in                            @jonastest00
 /doc/REST-interface.md                      @jonastest00
 /doc/benchmarking.md                        @jonastest00
