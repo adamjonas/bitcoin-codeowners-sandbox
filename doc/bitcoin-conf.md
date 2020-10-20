@@ -1,4 +1,4 @@
-# `bitcoin.conf` Configuration File
+# `bitcoin.conf` Configuration File -test
 
 The configuration file is used by `bitcoind`, `bitcoin-qt` and `bitcoin-cli`.
 
