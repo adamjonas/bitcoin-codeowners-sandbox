@@ -1,4 +1,4 @@
-# macOS Build Instructions and Notes
+# macOS Build Instructions and Notes - test
 
 The commands in this guide should be executed in a Terminal application.
 The built-in one is located in
