@@ -27,16 +27,11 @@
 #   @meshcollider
 
 # Descriptors
-*descriptor*                                @jonastester00 @jonastester1 @jonastest2 @adamjonas
+*descriptor*                                @jonastesterelli @jonastester @jonastest2 @adamjonas
 
 # Docs
-/doc/*[a-zA-Z-].md                          @harding
-/doc/Doxyfile.in                            @fanquake @adamjonas
-
-# Dev Tools
-/contrib/devtools/security-check.py         @fanquake
-/contrib/devtools/test-security-check.py    @fanquake
-/contrib/devtools/symbol-check.py           @fanquake
+/doc/*[a-zA-Z-].md                          @jonastest3
+/doc/Doxyfile.in                            @jonastest00 @adamjonas
 
 # Compatibility
 
