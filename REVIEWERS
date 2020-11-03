@@ -31,7 +31,7 @@
 #   @meshcollider
 
 # Descriptors
-*descriptor*                                @jonastester00 @jonastest1 @jonastest2 @adamjonas
+*descriptor*                                @jonastester00 @jonastester1 @jonastest2 @adamjonas
 
 # Docs
 /doc/Doxyfile.in                            @fanquake @adamjonas
@@ -54,4 +54,4 @@
 /src/validation.*                           @jonastest00
 
 # Everything
-*                                           @jonastester1 @adamjonas
+*                                           @everything @adamjonas
