@@ -30,6 +30,9 @@
 #   @marcofalke
 #   @meshcollider
 
+# Descriptors
+*descriptor*                                @achow101 @sipa
+
 # Docs
 /doc/Doxyfile.in                            @fanquake
 /doc/REST-interface.md                      @jonasschnelli
@@ -98,9 +101,6 @@
 
 # Index
 /src/index/                                 @fjahr
-
-# Descriptors
-*descriptor*                                @achow101 @sipa
 
 # Interfaces
 /src/interfaces/                            @ryanofsky
