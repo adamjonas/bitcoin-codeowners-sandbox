@@ -38,10 +38,6 @@
 /contrib/devtools/test-security-check.py    @fanquake
 /contrib/devtools/symbol-check.py           @fanquake
 
-# Gitian/Guix
-/contrib/gitian-build.py                    @hebasto
-/contrib/guix/                              @dongcarl
-
 # Compatibility
 
 /src/protocol.*                             @jonastest00 @adamjonas
