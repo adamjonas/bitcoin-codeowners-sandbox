@@ -33,6 +33,7 @@
 *descriptor*                                @jonastester00 @jonastester1 @jonastest2 @adamjonas
 
 # Docs
+/doc/*[a-zA-Z-].md                          @harding
 /doc/Doxyfile.in                            @fanquake @adamjonas
 
 # Dev Tools
